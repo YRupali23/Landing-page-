@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  @font-face {
+    font-family: "aa";
+    src: url(../demo/monumentextended-freeforpersonaluse/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf);
+  }
+  html,
+  body {
+    font-family: "aa";
+    height: 100%;
+    width: 100%;
+  }
+  #main {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(114, 88, 101, 0.881);
+    display: flex;
+  }
+  #part-one {
+    height: 100%;
+    width: 26%;
+    /* background-color: red; */
+  }
+  #part-two {
+    height: 100%;
+    width: 67%;
+    background-color: green;
+    background-image: url("model\ pic.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  #overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(107, 88, 98, 0.74);
+  }
+  #part-three {
+    height: 100%;
+    width: 7%;
+    /* background-color: rgb(0, 238, 255); */
+  }
+  #text {
+    height: 300px;
+    position: absolute;
+    width: 400px;
+    /* background-color: red; */
+    left: 7%;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+  #text>h1 {
+    /* font-family: "monument"; */
+    font-size: 95px;
+    line-height: 78px;
+    font-weight: 800px;
+    letter-spacing: 5px;
+  
+    color: white;
+  }
+  #small-img {
+    height: 350px;
+    width: 250px;
+    background-image: url("./model2.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 60%;
+    right: 5%;
+    transform: translate(0, -50%);
+  }
+  #overlay-in {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(212, 169, 191, 0.356);
+  }
+  #vertical-text {
+    position: absolute;
+    right: -54%;
+    transform-origin: 0% 0%;
+    transform: rotate(90deg);
+  }
+  /* width:100%; */
+  /* background-color: red; */
+  
+  #vertical-text h1 {
+    font-family: gilroy;
+    font-size: 60px;
+    font-weight: 900;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    color: transparent;
+    letter-spacing: 8px;
+  }
+  #nav {
+    /* background-color: red; */
+    width: 300px;
+    left: 7%;
+    top: 5%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #nav img {
+    height: 50px;
+  }
+  #nav h5 {
+    font-size: 20 px;
+    font-family: gilroy;
+    color: white;
+    /* left: 10%; */
+  }
+  
